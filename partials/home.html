@@ -1,0 +1,12 @@
+<div class="align-center">
+    <label class="alert alert-default pad-20 title" ng-repeat="league in main.leagues">
+        <a ng-href="/{{league.name.EncodeURI()}}">
+            {{league.name}} ({{league.clubCount}})
+        </a>
+    </label>
+</div>
+<div class="row">
+    <div class="col-sm-12 col-lg-4" ng-repeat="club in main.clubs" ng-if="club.code">
+        <team-list-item club="club"></team-list-item>
+    </div>
+</div>

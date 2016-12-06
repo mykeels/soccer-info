@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Deutsche Bundesliga",
+        "code": "DE",
+        "clubs": [
+            "resources/clubs/de-clubs-2015.json",
+            "resources/clubs/de-clubs-2016.json"
+        ],
+        "matches": [
+            "resources/matches/de-matches-2015.json",
+            "resources/matches/de-matches-2016.json"
+        ]
+    },
+    {
+        "name": "English Premier League",
+        "code": "EN",
+        "clubs": [
+            "resources/clubs/en-clubs-2015.json",
+            "resources/clubs/en-clubs-2016.json"
+        ],
+        "matches": [
+            "resources/matches/en-matches-2015.json",
+            "resources/matches/en-matches-2016.json"
+        ]
+    },
+    {
+        "name": "Serie A",
+        "code": "IT",
+        "clubs": [
+            "resources/clubs/it-clubs-2015.json",
+            "resources/clubs/it-clubs-2016.json"
+        ],
+        "matches": [
+            "resources/matches/it-matches-2015.json",
+            "resources/matches/it-matches-2016.json"
+        ]
+    },
+    {
+        "name": "Primera División",
+        "code": "SP",
+        "clubs": [
+            "resources/clubs/sp-clubs-2015.json",
+            "resources/clubs/sp-clubs-2016.json"
+        ],
+        "matches": [
+            "resources/matches/sp-matches-2015.json",
+            "resources/matches/sp-matches-2016.json"
+        ]
+    }
+]

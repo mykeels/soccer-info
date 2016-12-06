@@ -1,0 +1,55 @@
+.align-center {
+    text-align: center;
+}
+
+@media only screen and (max-width: 800px) and (orientation : portrait) {
+    .align-center {
+        text-align: left;
+    }
+
+    .pad-20 {
+        padding: 0px !important;
+    }
+
+    .title {
+        font-size: 22px;
+        color: black !important;
+        padding-left: 0px;
+    }
+}
+
+.pad-20 {
+    padding: 20px;
+}
+
+.pad-10 {
+    padding: 10px;
+}
+
+.font-percent-70 {
+    font-size: 70%;
+}
+
+.font-percent-100 {
+    font-size: 100%;
+}
+
+.font-percent-120 {
+    font-size: 120%;
+}
+
+.font-percent-150 {
+    font-size: 150%;
+}
+
+.font-20 {
+    font-size: 20px;
+}
+
+.font-30 {
+    font-size: 30px;
+}
+
+.inline-block {
+    display: inline-block;
+}
